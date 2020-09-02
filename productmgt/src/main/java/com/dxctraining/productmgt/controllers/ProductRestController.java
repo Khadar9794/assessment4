@@ -1,8 +1,6 @@
 package com.dxctraining.productmgt.controllers;
 
 import java.util.ArrayList;
-
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,14 +39,14 @@ public class ProductRestController {
 	}
 	
 	@GetMapping("/get/{id}")
-	public Product findProduct(@PathVariable("id")String id) {
+	public Product findProductById(@PathVariable("id")String id) {
 		Product product = productService.findById(id);
 		ProductDto response = util.productDto(product);
-		return Product;
+		return product;
 	}
 	
 	@GetMapping("/get/product/{name}")
-	public List<ProductDto> findProduct(@PathVariable("name")String name){
+	public List<ProductDto> findProductByName(@PathVariable("name")String name){
 		List<Product>list = productService.findByName(name);
 		List<ProductDto> response = new ArrayList<>();
 		for(Product product:list) {
@@ -60,7 +58,7 @@ public class ProductRestController {
 	}
 	
 	@GetMapping
-	public List<ProductDto> fetchAllProducts(){
+	public List<ProductDto> fetchAll(){
 		List<Product> list = productService.allProducts();
 		List<ProductDto>response = new ArrayList<>();
 		for(Product product:list) {

@@ -2,6 +2,7 @@ package com.dxctraining.productmgt.service;
 
 import java.util.List;
 
+
 import com.dxctraining.productmgt.entities.Product;
 
 public interface IProductService {
@@ -12,7 +13,7 @@ public interface IProductService {
 
     List<Product> findByName(String name);
     
-    List<Product> findAll();
+    List<Product> allProducts();
     
     List<Product> findByName1(String name);
 

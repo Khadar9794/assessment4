@@ -2,16 +2,15 @@ package com.dxctraining.productmgt.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Service;
 
-import com.dxctraining.mongoexperiments.suppliermgt.entities.Supplier;
+import com.dxctraining.productmgt.entities.*;
+import com.dxctraining.productmgt.exceptions.*;
 import com.dxctraining.productmgt.dao.IProductDao;
-import com.dxctraining.productmgt.entities.Product;
-import com.dxctraining.productmgt.exceptions.InvalidArgumentException;
-import com.dxctraining.productmgt.exceptions.ProductNotFoundException;
 
 import java.util.List;
 import java.util.Optional;
@@ -60,8 +59,8 @@ public class ProductServiceImpl implements IProductService{
     }
 
 	@Override
-	public List<Product> findAll() {
-		List<Product>list = dao.findAll(Product.class);
+	public List<Product> allProducts() {
+		List<Product>list = dao.findAll();
 		return list;
 	}
 
