@@ -1,0 +1,13 @@
+com\dxctraining\wisheditemmgt\wisheditem\entities\WishedItem.class
+com\dxctraining\wisheditemmgt\wisheditem\dao\IWisheditemDao.class
+com\dxctraining\wisheditemmgt\demo\DemoApplication.class
+com\dxctraining\wisheditemmgt\wisheditem\controller\WishedItemController.class
+com\dxctraining\wisheditemmgt\wisheditem\util\WishedItemUtil.class
+com\dxctraining\wisheditemmgt\wisheditem\dto\ProductDto.class
+com\dxctraining\wisheditemmgt\wisheditem\service\IWishedItemService.class
+com\dxctraining\wisheditemmgt\exception\InvalidArgumentException.class
+com\dxctraining\wisheditemmgt\wisheditem\dto\CreateWishItemRequest.class
+com\dxctraining\wisheditemmgt\wisheditem\dto\WishedItemDto.class
+com\dxctraining\wisheditemmgt\wisheditem\dto\CustomerDto.class
+com\dxctraining\wisheditemmgt\wisheditem\service\WishedItemServiceImpl.class
+com\dxctraining\wisheditemmgt\exception\WishedItemNotFoundException.class

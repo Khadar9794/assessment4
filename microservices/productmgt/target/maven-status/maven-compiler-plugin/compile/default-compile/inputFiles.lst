@@ -1,0 +1,11 @@
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\controllers\ProductRestController.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\ServletInitializer.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\entities\Product.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\util\ProductUtil.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\service\IProductService.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\dao\IProductDao.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\ProductmgtApplication.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\dto\CreateProductRequest.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\service\ProductServiceImpl.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\dto\ProductDto.java
+C:\Users\sshaik95\workspace\assessment\productmgt\src\main\java\com\dxctraining\productmgt\exceptions\ProductNotFoundException.java
