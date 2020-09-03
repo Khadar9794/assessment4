@@ -2,6 +2,7 @@ package com.dxctraining.customermgt.customer.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 import java.util.List;
 
 import javax.persistence.EntityManager;
@@ -18,7 +19,6 @@ import org.springframework.context.annotation.Import;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.dxctraining.customermgt.customer.entities.Customer;
-import com.dxctraining.customermgt.exceptions.CustomerNotFoundException;
 import com.dxctraining.customermgt.exceptions.InvalidArgumentException;
 
 @ExtendWith(SpringExtension.class)

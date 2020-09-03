@@ -40,7 +40,7 @@ public class CustomerServiceImpl implements ICustomerService{
     }
 
     private void validate(Object arg) {
-		if(arg == null) {
+		if(arg== null) {
 			throw new InvalidArgumentException("argument is null");
 		}
 		
